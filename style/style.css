@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Gilroy', sans-serif;
+}
+
+.wrapper {
+  width: 950px;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 1.5em 0;
+  border-bottom: 2px solid #ccc;
+}
+
+.nav li {
+  margin-right: 2em;
+}
+
+.nav li a {
+  color: #828282;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+#home {
+  min-height: 50vh;
+  padding: 3em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about__title {
+  font-size: 48px !important;
+  font-weight: 700;
+}
+
+.about__text {
+  font-size: 24px;
+}
+
+.about__text p {
+  margin: 1em 0;
+}
+
+.main__image {
+  object-fit: contain;
+  width: 350px;
+  height: 350px;
+}
+
+#projects {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.project {
+  border: 1px solid #ccc;
+}
+
+#contacts {
+  padding: 7em 0;
+  height: 300px;
+  text-align: center;
+}
+
+.list-contacts {
+  margin: 50px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+}
+
+.list-contacts img {
+  width: 60px;
+  transition: transform 0.5s ease-in;
+}
+
+.list-contacts img:hover {
+  transform: scale(1.1);
+}
