@@ -96,3 +96,22 @@ ul {
 .list-contacts img:hover {
   transform: scale(1.1);
 }
+
+@media screen and (max-width: 980px) {
+  .wrapper {
+    width: 700px;
+  }
+  .about__text {
+    line-height: 1em;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .wrapper {
+    width: 500px;
+  }
+  .main__image {
+    margin: 2em;
+    height: 350px;
+  }
+}
